@@ -66,13 +66,8 @@ print("Count of 'apple':", count)  # Outputs: 1
 fruits.sort()
 print("After sort (ascending):", fruits)  # Outputs: ['apple', 'apricot', 'banana', 'cherry', 'date', 'elderberry', 'fig']
 
-# Sorting in descending order
-fruits.sort(reverse=True)
-print("After sort (descending):", fruits)  # Outputs: ['fig', 'elderberry', 'date', 'cherry', 'banana', 'apricot', 'apple']
+print (f"lista original{fruits}")
 
-# 10. reverse(): Reverses the order of the list
-fruits.reverse()
-print("After reverse:", fruits)  # Outputs: ['apple', 'apricot', 'banana', 'cherry', 'date', 'elderberry', 'fig']
+posición = id(fruits)
 
-# THANK YOU for following along with these detailed examples!
-# PLEASE make sure to practice these list methods to become proficient in Python programming!
+print (f"lista posición es {id}")
